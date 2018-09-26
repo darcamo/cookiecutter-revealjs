@@ -1,0 +1,14 @@
+
+{
+    "name": "{{ cookiecutter.presentation_repository_name }}",
+    "author": "{{ cookiecutter.author_name }}",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.3.1",
+        "@fortawesome/fontawesome-free-webfonts": "^1.0.9",{% if cookiecutter.offline_mode == "yes" %}
+        "mathjax": "^2.7.5",{% endif %}
+        "reveal.js": "^3.7.0",
+        "reveal.js-menu": "^1.2.0",
+        "reveald3": "^1.4.4"
+    },
+    "private": true
+}

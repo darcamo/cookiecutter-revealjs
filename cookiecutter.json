@@ -1,0 +1,12 @@
+{
+    "presentation_title": "The Presentation Title",
+    "presentation_repository_name": "{{cookiecutter.presentation_title|replace(' ', '_')}}",
+    "presentation_description": "A brief description of your presentation",
+    "author_name": "Darlan Cavalcante Moreira",
+    "author_email": "darcamo@gmail.com",
+    "author_institution": "Intitution Name",
+    "author_institution_website": "Institution Website",
+    "presentation_theme": ["black", "white", "league", "beige", "sky", "night", "serif", "simple", "solarized"],
+    "offline_mode": ["no", "yes"],
+    "_copy_without_render": ["js/configure_mathjax.js", "extra_reveljs_plugins"]
+}
